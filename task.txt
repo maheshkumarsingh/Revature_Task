@@ -1,0 +1,25 @@
+
+Try to solve these four problems:
+1. Given a website address as a string, extract the domain name. For example, if the website address is "https://en.wikipedia.org/wiki/Main_Page", then it should return "en.wikipedia.org" as the domain name.
+2. Given a website address as a string, find out if the website is secure or not. A website address starting with "http" is not secure and a website with "https" is secure.
+3. Mass of earth is 5.972 x 10 power 24. Represent this value in a variable and print the same.
+4. Given a right angle triangle with sides a, b and c. As per Pythagoras theorem the hypotenuse side c can be calculated as square root of a square plus b square. Write a program to compute the hypotenuse, when a and b are provided.
+
+
+
+
+Task1 - Convert every word's last letter to upper case
+Task2 - If the word is of odd length then convert middle letter to uppercase else convert first                                                  letter to uppercase
+Task3 - In every word if it is not palindrome then reverse it and print back the whole sentence.  
+ 
+
+
+
+ * 1)Find Nth  max in array, remember it will have duplicates
+ * 2)Take an array and remove all duplicates in it
+ * 3)Find all the palindrome numbers in array
+ * 4)Find all prime numbers in array
+ * 5)Take array as input remove the digits where the first value and last value is same
+ * eg [101,22,344,699]-> in this 101 and 22 should be removed because the first digit and last is same
+ * so output will be [344,699]
+
