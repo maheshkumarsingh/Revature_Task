@@ -17,7 +17,7 @@ public class TrainJourneySchd {
 	
 	public void Print()
 	{
-		System.out.printf("%1s %10s %20s %6s %6s \n",num,code,station,Arr,Dep);//printf hai see
+		System.out.printf("%-2d %-10s %-20s %-6s %-6s \n",num,code,station,Arr,Dep);//printf hai see
 	}
 	
 	

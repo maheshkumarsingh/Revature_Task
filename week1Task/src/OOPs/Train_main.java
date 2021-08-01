@@ -5,7 +5,7 @@ public class Train_main {
 	public void Print_Main(){
 		System.out.println("Yasvantpur Delhi Sarai Rohilla AC Duronto Express (12213");
 		System.out.println("-------------------------------------------------");
-		System.out.printf("%1s %10s %20s %6s %6s \n","#","code","Station","Arr","Dep");
+		System.out.printf("%-1s %-10s %-22s %-6s %-6s \n","#","code","Station","Arr","Dep");
 		System.out.println("-------------------------------------------------");
 	}
 	
