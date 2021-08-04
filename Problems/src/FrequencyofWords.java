@@ -1,11 +1,6 @@
-
 public class FrequencyofWords {
 	
-	
-
-	
-
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			String str="hii how are you";
 			Frequency(str);
 

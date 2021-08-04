@@ -47,8 +47,10 @@ public class Bus {
 		this.rating = rating;
 	}
 
-	public static void PrintBus() {
-		System.out.println();
+	@Override
+	public String toString() {
+		return "Bus [id=" + id+ ", providerName=" + providerName +",cost="
 	}
+	
 
 }

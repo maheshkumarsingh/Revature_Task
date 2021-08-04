@@ -15,6 +15,7 @@ public class BusMain {
 		buslist.add(new Bus(103,"a travels",100.00,2.3f));
 		
 		PrintBus(buslist);
+		
 	    Collections.sort(buslist);
 
 	}
