@@ -18,7 +18,7 @@ public class Presenter {
 		
 		 
 		      try{
-		    	  if(a.isValidAadhar("123"))
+		    	  if(a.isValidInteger("abc"))
 		    		  System.out.println("Valid Number");
 			
 		      }catch(NumberFormatException e){

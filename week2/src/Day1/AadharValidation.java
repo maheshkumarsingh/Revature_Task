@@ -1,6 +1,7 @@
 package Day1;
 
 public class AadharValidation {
+	
 	//Runtime--Unchecked
 
 	public boolean isValidAadhar(String aadhar) throws InvalidAadharException{
@@ -12,7 +13,9 @@ public class AadharValidation {
 			throw new InvalidAadharException("Invalid "+aadhar+" Number");
 	}
 	
-	public boolean isValidInteger(String str) throws NumberFormatException{
+	//Checked Exception
+	
+	public boolean isValidInteger(String str) throws NumberFormatException,ArithmeticException{
 		if(str!=null && str.matches("[0-9]{3}"))
 			return true;
 		else
