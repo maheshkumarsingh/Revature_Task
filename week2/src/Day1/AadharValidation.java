@@ -3,6 +3,7 @@ package Day1;
 public class AadharValidation {
 	
 	//Runtime--Unchecked
+	String str="hii";
 
 	public boolean isValidAadhar(String aadhar) throws InvalidAadharException{
 		if(aadhar!=null && aadhar.matches("[0-9]{12}"))
